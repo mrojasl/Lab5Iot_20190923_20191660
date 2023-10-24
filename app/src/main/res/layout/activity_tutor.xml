@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".TutorActivity">
+
+    <Button
+        android:id="@+id/btnDownloadList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descargar Lista de Trabajadores"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnSearchWorkerById"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Trabajador por ID"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnSearchWorkerByName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Trabajador por Nombre"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+</LinearLayout>
